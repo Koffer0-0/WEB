@@ -1,12 +1,7 @@
-<?php  
-	echo "Hello my team!";
-?>
-<?php  /*test number 2*/
-	echo "How are you?";
-?>
-<?php  /*test number 3*/
-	echo "Updating at 3rd time";
-?>
-<?php  
-	echo "test but not fork";
+<?php 
+	require_once('Database/connectDB.php');
+	/*main page when you open it*/
+	require('parts/navigation.php');
+	require('parts/header.php');
+    require('main.php');
 ?>
